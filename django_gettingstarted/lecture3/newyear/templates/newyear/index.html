@@ -1,0 +1,16 @@
+{% load static %}
+
+<html>
+<head>
+    <title>Hello my frist view python django</title>
+    <link href="{% static 'newyear/styles.css' %}" rel="stylesheet">
+</head>
+<body>
+    Is new year? 
+    {% if newyear %}
+        <h1>YES</h1>
+    {% else %}
+        <h1>NO</h1>
+    {% endif %}  
+</dody>
+</html>
