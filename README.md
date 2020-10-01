@@ -1,9 +1,12 @@
-# DJANGO
-1.  `pip3 install Django==3.1.1`
-> Installing Django
-2.  `django-admin startptoject lecture3`
-> Creates project lecture3
-3.  `python manage.py startapp hello`
-> Creates application part called hello
-4.  `python .\manage.py runserver`
-> Runs server
+# Prerequisites
+> Download and install python (windows): https://www.python.org/ftp/python/3.8.5/python-3.8.5.exe
+
+## Python
+1.  python .\exceptions.py
+
+## DJANGO
+### How to start django
+1.  Installing Django: `pip3 install Django==3.1.1`
+2.  Creates project lecture3: `django-admin startptoject lecture3`
+3.  Creates application part called hello: `python manage.py startapp hello`
+4.  Runs server: `python .\manage.py runserver`
